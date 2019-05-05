@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.amoeba {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  z-index: 10;
+}
+
+.amoeba ul li a {
+  color: white !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: tahoma;
+}
+
+.amoeba ul li {
+  margin-right: 20px;
+}
+
+.amoeba ul li:hover a {
+  color: #00FFFF !important;
+}
+
+.amoeba-nav {
+  font-size: 14px;
+  padding: 20px 100px;
+  background-color: #2F4F4F !important;
+}
+.amoeba-nav .tieude{
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+.amoeba-nav .tieude:hover{
+  color: #FFFF00 !important;
+  border-bottom: 1px solid white;
+}
+.amoeba-nav>a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* <!-- ----end-header---- --> */
+/* =============================== */
+.banner {
+  background: #70B9B0;
+  min-height: 500px;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: tahoma;
+  padding: 15px 0;
+}
+
+.banner p {
+  padding: 0 70px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.banner i {
+  font-size: 80px;
+}
+
+/* end-banner */
+/* =============================== */
+.content-1 {
+  text-align: center;
+  padding: 40px 30px;
+  height: auto;
+}
+
+.content-1 p {
+  color: #696969;
+  padding-top: 15px;
+}
+
+.content-1 h5 {
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.content-1 i {
+  font-size: 50px;
+  padding-top: 20px;
+  color: #696969;
+}
+
+/* end-content-1 */
+/* =============================== */
+.background-content-1 {
+  min-height: 220px;
+  width: 100%;
+  background-image: url('image/5.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 80px 100px;
+  color: white;
+  font-weight: 500;
+}
+
+.background-content-1 a {
+  color: #76EE00;
+}
+
+.background-content-2 {
+  min-height: 220px;
+  width: 100%;
+  background-image: url('image/6.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px 80px;
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.background-content-2 a {
+  color: #76EE00;
+}
+
+/* =============================== */
+.about {
+  width: 100%;
+  min-height: 600px;
+  background: #F5F5F5;
+  text-align: center;
+  padding: 50px 40px;
+}
+
+.our-team p {
+  color: #BEBEBE;
+  padding: 15px 0px;
+}
+
+.members img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.members h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.members p {
+  color: #BEBEBE;
+  font-size: 16px;
+}
+
+/* =============================== */
+.portfolio {
+  width: 100%;
+  min-height: 800px;
+  background: #F5F5F5;
+  text-align: center;
+  padding: 50px 40px;
+}
+
+.select-images {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.select-images a {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  width: auto;
+  height: 40px;
+  background: #DDDDDD;
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.select-images a:hover {
+  background: #63B8FF;
+  color: white;
+  font-weight: 400;
+}
+
+.library {
+  margin-bottom: 30px;
+}
+
+.library img {
+  max-width: 400px;
+  height: 250px;
+  transition: 0.2s;
+  opacity: 0.7;
+}
+.library:hover img{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.portfolio p {
+  color: #BEBEBE;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+/* =============================== */
+.contact {
+  padding-bottom: 60px;
+  padding: 50px;
+  width: 100%;
+  min-height: 600px;
+}
+
+.contact .tittle-contact {
+  text-align: center;
+  padding: 30px;
+}
+
+.tittle-contact p {
+  color: #BEBEBE;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.contact form {
+  padding: 10px 200px;
+}
+
+.contact label {
+  font-weight: bold;
+  color: #999999;
+  font-size: 16px;
+}
+
+.contact input {
+  font-size: 14px;
+  height: 50px;
+  background: #E8E8E8;
+}
+
+.contact #exampleInputMessage1 {
+  height: 100px;
+}
+
+.contact #send-message {
+  font-size: 12px;
+}
+
+/* =============================== */
+.footer {
+  bottom: 0px;
+  height: 300px;
+  background: #242424;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer .icon i {
+  font-size: 20px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 15px 10px;
+  border-radius: 100%;
+  background: #528B8B;
+  color: white;
+}
+
+.icon i:hover:nth-child(1) {
+  background: #FF7F24;
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon i:hover:nth-child(2) {
+  background: #104E8B;
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon i:hover:nth-child(3) {
+  background: #98F5FF;
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon i:hover:nth-child(4) {
+  background: #FF3030;
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon i:hover:nth-child(5) {
+  background: #104E8B;
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon p {
+  color: #D3D3D3;
+  margin-top: 20px;
+}
+
+/* ===========Reponsive==================== */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media (max-width: 375px) {
+  .contact {
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: 600px;
+  }
+.amoeba-right ul li {
+  border-bottom: 1px solid white;
+}
+.amoeba-right ul {
+  margin: 0 auto;
+  width: 100%;
+}
+.amoeba-nav .tieude{
+  font-size: 35px;
+}
+.select-images a{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+  .contact form {
+    padding: 10px 0px;
+  }
+  .amoeba{
+    max-width: 375px;
+  }
+  .library img{
+    width: 100%;
+  }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .contact {
+      padding-bottom: 60px;
+      width: 100%;
+      min-height: 600px;
+    }
+  .amoeba-right ul li {
+    border-bottom: 1px solid white;
+  }
+  .amoeba-right ul {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .amoeba-nav .tieude{
+    font-size: 35px;
+  }
+  .select-images a{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+    .contact form {
+      padding: 10px 0px;
+    }
+    .amoeba{
+      max-width: 100%;
+    }
+    .library img{
+      width: 100%;
+    }
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  .amoeba{
+    max-width: 100%;
+  }
+  .amoeba-nav .tieude{
+    font-size: 35px;
+  }
+  .header{
+    max-width: 100%;
+  }
+  .amoeba-right ul li {
+    border-bottom: 1px solid white;
+  }
+  .amoeba-right ul {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .content-1 .row{
+  max-width: 100%;
+  }
+  .library img{
+    width: 100%;
+  }
+  .contact {
+    padding-bottom: 60px;
+    width: 100%;
+    min-height: 600px;
+  }
+
+  .contact form {
+    padding: 10px 0px;
+  }
+  .select-images a{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
